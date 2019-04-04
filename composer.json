@@ -2,7 +2,7 @@
     "name": "devkai/craft-color-alpha",
     "description": "color field with alpha channel",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "keywords": [
         "craft",
         "cms",
@@ -12,7 +12,7 @@
         "color-input",
         "color-field",
         "alpha-channel",
-        "opacity",
+        "opacity"
     ],
     "support": {
         "docs": "https://github.com/toyflish/craft-color-alpha/blob/master/README.md",

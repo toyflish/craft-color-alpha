@@ -32,7 +32,6 @@
 
       $(function() {
         /* -- _this.options gives us access to the $jsonVars that our FieldType passed down to us */
-        console.log({ id, options: _this.options });
 
         var $container = $('.color-alpha-container');
         var $color = $container.find('.color');

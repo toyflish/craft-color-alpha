@@ -38,12 +38,6 @@ class Coloralpha extends Field
     // Public Properties
     // =========================================================================
 
-    /**
-     * Some attribute
-     *
-     * @var string
-     */
-    public $colorAlphaDefault = '#aabbccdd';
 
     // Static Methods
     // =========================================================================
@@ -74,10 +68,6 @@ class Coloralpha extends Field
     public function rules()
     {
         $rules = parent::rules();
-        $rules = array_merge($rules, [
-            ['colorAlphaDefault', 'string', 'min' => 9],
-            ['colorAlphaDefault', 'default', 'value' => ''],
-        ]);
         return $rules;
     }
 
