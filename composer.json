@@ -2,7 +2,7 @@
     "name": "devkai/craft-color-alpha",
     "description": "color field with alpha channel",
     "type": "craft-plugin",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": [
         "craft",
         "cms",
