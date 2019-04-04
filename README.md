@@ -22,4 +22,4 @@ To install the plugin, follow these instructions.
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for craft-color-alpha.
 
 
-Brought to you by [Kai Rautenberg](https://toylfish.com)
+Brought to you by [Kai Rautenberg](https://toyflish.com)
