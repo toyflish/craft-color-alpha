@@ -1,8 +1,7 @@
 # craft-color-alpha plugin for Craft CMS 3.x
 
-color field with alpha channel
-
-![Screenshot](resources/img/plugin-logo.png)
+Color field with alpha channel. Basicly adds a Color-Alpha field simular to Color field using [Vanilla-Picker](https://vanilla-picker.js.org/).
+The color is stored as a 8-digit-hex
 
 ## Requirements
 
@@ -18,26 +17,9 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require toyflish/craft-color-alpha
+        composer require devkai/craft-color-alpha
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for craft-color-alpha.
 
-## craft-color-alpha Overview
-
--Insert text here-
-
-## Configuring craft-color-alpha
-
--Insert text here-
-
-## Using craft-color-alpha
-
--Insert text here-
-
-## craft-color-alpha Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
 
 Brought to you by [Kai Rautenberg](https://toylfish.com)
