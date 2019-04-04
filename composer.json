@@ -8,7 +8,11 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "craft-color-alpha"
+        "craft-color-alpha",
+        "color-input",
+        "color-field",
+        "alpha-channel",
+        "opacity",
     ],
     "support": {
         "docs": "https://github.com/toyflish/craft-color-alpha/blob/master/README.md",
