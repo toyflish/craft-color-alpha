@@ -1,0 +1,33 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * craft-color-alpha plugin for Craft CMS 3.x
+ *
+ * Coloralpha Field Input
+ *
+ * @author    Kai Rautenberg
+ * @copyright Copyright (c) 2019 Kai Rautenberg
+ * @link      https://toylfish.com
+ * @package   Craftcoloralpha
+ * @since     0.1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% set id = id ?? 'color'~random() -%}
+{% set containerId = containerId ?? id~'-container' -%}
+<div id="{{ containerId }}" class="flex color-alpha-container">
+        <div class="color static">
+            <div class="color-preview"
+                {%- if value %} style="background-color: {{ value }};"{% endif -%}
+            ></div>
+        </div>
+        {{ forms.textField({
+                size: 9,
+                class: 'color-alpha-input',
+                id: name,
+                name: name,
+                value: value})
+        }}
+</div>

@@ -1,0 +1,19 @@
+/**
+ * craft-color-alpha plugin for Craft CMS
+ *
+ * Coloralpha Field CSS
+ *
+ * @author    Kai Rautenberg
+ * @copyright Copyright (c) 2019 Kai Rautenberg
+ * @link      https://toylfish.com
+ * @package   Craftcoloralpha
+ * @since     0.1
+ */
+
+.color-alpha-container > .field {
+  margin-top: 0;
+}
+.color-alpha-container > .field > .input > input {
+  min-width: 7em;
+}
+

@@ -1,0 +1,40 @@
+{
+    "name": "devkai/craft-color-alpha",
+    "description": "color field with alpha channel",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft-color-alpha"
+    ],
+    "support": {
+        "docs": "https://github.com/toyflish/craft-color-alpha/blob/master/README.md",
+        "issues": "https://github.com/toyflish/craft-color-alpha/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kai Rautenberg",
+            "homepage": "https://toylfish.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "devkai\\craftcoloralpha\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "craft-color-alpha",
+        "handle": "craft-color-alpha",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/toyflish/craft-color-alpha/master/CHANGELOG.md",
+        "class": "devkai\\craftcoloralpha\\Craftcoloralpha"
+    }
+}

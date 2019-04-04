@@ -1,0 +1,26 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * craft-color-alpha plugin for Craft CMS
+ *
+ * Coloralpha Field Settings
+ *
+ * @author    Kai Rautenberg
+ * @copyright Copyright (c) 2019 Kai Rautenberg
+ * @link      https://toylfish.com
+ * @package   Craftcoloralpha
+ * @since     0.1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("devkai\\craftcoloralpha\\assetbundles\\coloralphafield\\ColoralphaFieldAsset") %}
+
+{# {{ forms.textField({
+    label: 'Some Attribute',
+    instructions: 'Enter some attribute here.',
+    id: 'colorAlphaDefault',
+    name: 'colorAlphaDefault',
+    value: field['colorAlphaDefault']})
+}} #}
